@@ -1,0 +1,59 @@
+.contact{
+  background-image: url("../../assets/img/getInTouch.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  &__content{
+    display: grid;
+    background-color: white;
+    padding: 80px 15px;
+    grid-template-areas: "h1 data";
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    @media (max-width: 650px) {
+      margin: 0 15px;
+    }
+    h1{
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 46px;
+      max-width: 75%;
+      @media (max-width: 768px) {
+        font-size: 30px;
+      }
+      @media (max-width: 650px) {
+        display: none;
+      }
+    }
+    .data{
+      @media (max-width: 650px) {
+        text-align: center;
+
+      }
+      font-size: 1.2rem;
+      textarea{
+        resize: none;
+      }
+
+      h2{
+        color: red;
+        margin-bottom: 20px;
+      }
+      input,textarea{
+        width: 100%;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        padding: 9px;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+        &:focus{
+          box-shadow: 0 5px 6px 0 #787878;
+          outline: transparent;
+          border-color: #61dafb;
+        }
+      }
+
+    }
+  }
+}

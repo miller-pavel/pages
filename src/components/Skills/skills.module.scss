@@ -1,0 +1,62 @@
+@import '../../scss/variables.scss';
+
+.skills {
+  position: relative;
+  padding-bottom: 0 !important;
+
+  .skillsTitle {
+    padding: 30px 40px;
+    margin-top: 50px;
+  }
+
+  .usingNowSkills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    @media (max-width:$md) {
+      grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    @media (max-width:$sm) {
+      grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+
+    .skill {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        display: grid;
+        justify-items: center;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .bg {
+    position: absolute;
+
+    @media (max-width:$md) {
+      max-height: 50vh;
+      top: -20%;
+
+
+    }
+
+    @media (max-width:$sm) {
+      max-height: 50vh;
+      top: 46%;
+
+    }
+
+    right: 0;
+    z-index: -2;
+    top: -30%;
+  }
+}

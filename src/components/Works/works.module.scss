@@ -1,0 +1,44 @@
+@import './../../scss/variables.scss';
+
+.myWorks {
+
+  .filter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 35px;
+    background-color: #000E23;
+    margin-top: 100px;
+
+    li {
+      padding: 4px 20px;
+      list-style: none;
+      color: $secondTextColor;
+      border-bottom: 2px solid gray;
+
+      &.active {
+        border-bottom: 2px solid white;
+      }
+    }
+  }
+
+  .portfolio_img_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    @media (max-width:$md) {
+      grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    @media (max-width:$sm) {
+      grid-template-columns: 1fr;
+    }
+
+
+    img {
+      width: 100%;
+    }
+  }
+}
