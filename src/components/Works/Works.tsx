@@ -25,8 +25,11 @@ const Works = () => {
     ghPages: string;
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const classNames =
+    // eslint-disable-next-line no-template-curly-in-string
     "`${styles.totalProjects__item} ${styles.totalProjects__item__active}`";
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const projects: Projects[] = [
     {
       id: 1,
