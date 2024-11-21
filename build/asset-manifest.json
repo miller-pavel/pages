@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/az25-boop/static/css/main.a0fe004e.css",
+    "main.js": "/az25-boop/static/js/main.6f2aa041.js",
+    "static/media/me.webp": "/az25-boop/static/media/me.96d43bc1c4185e84bd42.webp",
+    "static/media/HeaderImgTop.webp": "/az25-boop/static/media/HeaderImgTop.ecaf1c77a5320b24f175.webp",
+    "static/media/yt.webp": "/az25-boop/static/media/yt.16d45e7741d7f4b9fd56.webp",
+    "static/media/newsfinder.webp": "/az25-boop/static/media/newsfinder.303efce77b56c01d808f.webp",
+    "static/media/getInTouch.webp": "/az25-boop/static/media/getInTouch.2b61afb59d1e76ac146a.webp",
+    "static/media/pizza.webp": "/az25-boop/static/media/pizza.2e57b8abc88cd3b97340.webp",
+    "static/media/parallax.webp": "/az25-boop/static/media/parallax.bd4e76e5dd3ece6a7c99.webp",
+    "static/media/logotype.webp": "/az25-boop/static/media/logotype.0e7293cfb45ba6c8256f.webp",
+    "static/media/mogo.webp": "/az25-boop/static/media/mogo.603ccf218149b978a15d.webp",
+    "static/media/Frontend_Melnik_Pavel_CV.pdf": "/az25-boop/static/media/Frontend_Melnik_Pavel_CV.ae7a65d7ab2f0cf0418e.pdf",
+    "static/media/coffeeLight.webp": "/az25-boop/static/media/coffeeLight.88bf4478fbf7f78da50d.webp",
+    "static/media/JobListing.webp": "/az25-boop/static/media/JobListing.9cb0c43757433627b53b.webp",
+    "static/media/spendtime.webp": "/az25-boop/static/media/spendtime.c7f89d913084d7efadf5.webp",
+    "static/media/float.webp": "/az25-boop/static/media/float.688b02ff3d24a12d604b.webp",
+    "static/media/skillsBg.webp": "/az25-boop/static/media/skillsBg.beb35c9f9c53b669d13f.webp",
+    "static/media/footerBg.webp": "/az25-boop/static/media/footerBg.9ad0c75bf97a0269035f.webp",
+    "static/media/instagram.svg": "/az25-boop/static/media/instagram.cf188395babdbe46646b39c3c76c8464.svg",
+    "static/media/github.svg": "/az25-boop/static/media/github.df0dcd6a92ef38a0e91b923afc26dc96.svg",
+    "index.html": "/az25-boop/index.html",
+    "static/media/linkedin.svg": "/az25-boop/static/media/linkedin.b4db7e288def9f61c3425e36908bc6cb.svg",
+    "main.a0fe004e.css.map": "/az25-boop/static/css/main.a0fe004e.css.map",
+    "main.6f2aa041.js.map": "/az25-boop/static/js/main.6f2aa041.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0fe004e.css",
+    "static/js/main.6f2aa041.js"
+  ]
+}
