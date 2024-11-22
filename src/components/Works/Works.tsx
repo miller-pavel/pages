@@ -1,5 +1,6 @@
 import React, { useRef, useLayoutEffect } from "react";
 import styles from "./works.module.scss";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import workImg from "../../assets/img/bgWorkNone.png";
 import { gsap } from "gsap";
 
@@ -25,8 +26,11 @@ const Works = () => {
     ghPages: string;
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const classNames =
+    // eslint-disable-next-line no-template-curly-in-string
     "`${styles.totalProjects__item} ${styles.totalProjects__item__active}`";
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const projects: Projects[] = [
     {
       id: 1,
