@@ -8,7 +8,7 @@ const Footer = () => {
       <img src={footerBg} alt="" />
       <h3>Melnik Pavel</h3>
       <SocialLinks />
-      <p>All Rights Reserved 2024 Melnik Pavel</p>
+      <p>All Rights Reserved 2025 Melnik Pavel</p>
     </footer>
   );
 };

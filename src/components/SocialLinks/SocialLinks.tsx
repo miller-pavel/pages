@@ -14,7 +14,7 @@ const SocialLinks = () => {
         </a>
       </li>
       <li>
-        <a href="https://www.instagram.com/">
+        <a href="https://t.me/pawwaMiller">
           <InstagramLogo
             className={styles.svgLink}
             height="40px"
