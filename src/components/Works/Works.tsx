@@ -8,7 +8,7 @@ import coffee from "../../assets/img/portfolio/coffeeLight.webp";
 import yt from "../../assets/img/portfolio/yt.webp";
 import parallax from "../../assets/img/portfolio/parallax.webp";
 import joblisting from "../../assets/img/portfolio/JobListing.webp";
-import spendtime from "../../assets/img/portfolio/spendtime.webp";
+// import spendtime from "../../assets/img/portfolio/spendtime.webp";
 import newsfinder from "../../assets/img/portfolio/newsfinder.webp";
 import pizza from "../../assets/img/portfolio/pizza.webp";
 import logotype from "../../assets/img/portfolio/logotype.webp";
@@ -107,7 +107,7 @@ const Works = () => {
         </div>
         <div className="container">
           <div id="worksImg" className={styles.portfolio_img_wrapper}>
-            <img src={spendtime} alt="portfolioWork" />
+            {/* <img src={spendtime} alt="portfolioWork" /> */}
             <img src={yt} alt="portfolioWork" />
             <img src={pizza} alt="portfolioWork" />
             <img src={newsfinder} alt="portfolioWork" />

@@ -7,7 +7,7 @@
     font-weight: bold;
 
     &:after {
-      content: '';
+      content: "";
       display: block;
       width: 100%;
       height: 2px;
@@ -16,7 +16,7 @@
   }
 
   color: white;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   position: relative;
   height: 100vh;
 
@@ -38,13 +38,12 @@
       height: 100%;
       width: 250px;
       animation-name: fromLeft;
-      animation-duration: .5s;
+      animation-duration: 0.5s;
     }
   }
 
   .show {
     display: initial;
-
   }
 
   .scroll {
@@ -64,13 +63,10 @@
     }
   }
 
-
-
-
   img {
     position: absolute;
     z-index: -1;
-    left: calc($indexSize*(-5));
+    left: calc($indexSize * (-5));
     max-width: 100vw;
   }
 
@@ -83,12 +79,10 @@
     display: flex;
     justify-content: flex-end;
 
-
-
     ul {
       li {
         margin: 0;
-        font-size: calc($indexSize*.5);
+        font-size: calc($indexSize * 0.5);
         padding: 12px 30px;
 
         &:hover {
@@ -111,7 +105,7 @@
       list-style: none;
       margin-right: 65px;
       margin: 20px 0;
-      color: #928A97;
+      color: #928a97;
     }
   }
 
@@ -119,11 +113,9 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    align-items: end;
+    align-items: flex-end;
     justify-content: center;
-    font-size: calc($indexSize*1.4);
+    font-size: calc($indexSize * 1.4);
     color: $baseTextColor;
-
-
   }
 }
