@@ -9,7 +9,7 @@ const SocialLinks = () => {
   return (
     <ul className={styles.svgLogo}>
       <li>
-        <a href="https://github.com/az25-boop">
+        <a href="https://github.com/miller-pavel">
           <GithubLogo className={styles.svgLink} height="40px" width="40px" />
         </a>
       </li>
@@ -23,7 +23,7 @@ const SocialLinks = () => {
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/pavel-melnik/">
+        <a href="https://www.linkedin.com/in/pavel-miller/">
           <LinkedInLogo className={styles.svgLink} height="40px" width="40px" />
         </a>
       </li>
